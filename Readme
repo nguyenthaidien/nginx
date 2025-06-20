@@ -1,1 +1,8 @@
 diennt.tgg
+
+let me write dockerfile
+for nginx reverse proxy
+FROM nginx:latest
+EXPOSE 9443
+COPY nginx.conf /etc/nginx/nginx.conf
+with stub_status on
